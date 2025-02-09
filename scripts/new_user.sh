@@ -18,7 +18,7 @@ then
     # TODO: Check if the dotfiles already exist.
     git clone https://github.com/burtonwilliamt/dotfiles.git
     cd dotfiles
-    sh ./setup.sh
+    sh ./scripts/dotfiles.sh
 fi
 
 read -p "Do you want to setup docker? [Y/n]" -n 1 REPLY

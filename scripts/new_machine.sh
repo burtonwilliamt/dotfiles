@@ -15,7 +15,7 @@ apt dist-upgrade -y
 read -p "Install essential tools [y/N? " REPLY
 if [[ $REPLY =~ ^[yY]$ ]]
 then
-    apt install sudo vim tmux git
+    apt install -y sudo vim tmux git
 fi
 read -p "Name for new user (leave empty to skip): " REPLY
 if ! [[ $REPLY =~ ^\s*$ ]]
