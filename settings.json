@@ -16,7 +16,6 @@
     "editor.rulers": [
         80,
     ],
-    "window.zoomLevel": 0,
     "editor.minimap.enabled": false,
     "files.exclude": {
         "**/__pycache__": true,
@@ -33,7 +32,7 @@
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "explicit"
         },
     },
     "isort.args": [
@@ -44,4 +43,18 @@
     "python.envFile": "${workspaceFolder}/venv",
     "editor.scrollBeyondLastLine": false,
     "autoDocstring.docstringFormat": "google-notypes",
+    "git.confirmSync": false,
+    "godot_tools.editor_path": "/usr/bin/godot",
+    "godot_tools.gdscript_lsp_server_port": 6005,
+    "git.enableSmartCommit": true,
+    "editor.glyphMargin": false,
+    "godotTools.editorPath.godot3": "/usr/bin/godot",
+    "godotTools.editorPath.godot4": "/usr/bin/godot",
+    "godotTools.lsp.serverPort": 6005,
+    "pylint.importStrategy": "fromEnvironment",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
 }
