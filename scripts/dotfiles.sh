@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DOTFILES_DIR="$(dirname "$PWD/$0")"
+DOTFILES_DIR="$PWD"
 TO_HOME="$DOTFILES_DIR"/homefiles.txt
 
 confirm() {
